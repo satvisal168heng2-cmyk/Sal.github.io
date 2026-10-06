@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>គេហទំព័រដំបូងរបស់ខ្ញុំ</title>
+    <style>
+        /* ផ្នែកតុបតែងកូដ (CSS) */
+        body {
+            font-family: 'Khmer OS Battambang', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f7f6;
+            color: #333;
+            text-align: center;
+        }
+        header {
+            background-color: #0077cc;
+            color: white;
+            padding: 40px 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .btn {
+            display: inline-block;
+            background-color: #ff5722;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #e64a19;
+        }
+        footer {
+            margin-top: 5px;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ផ្នែកក្បាល Website -->
+    <header>
+        <h1>សូមស្វាគមន៍មកកាន់ Website របស់ខ្ញុំ!</h1>
+        <p>នេះជាគេហទំព័រដំបូងបង្អស់ដែលខ្ញុំបានបង្កើត និងបង្ហោះលើ GitHub Pages</p>
+    </header>
+
+    <!-- ផ្នែកសាច់រឿងកណ្តាល -->
+    <div class="container">
+        <h2>អំពីខ្ញុំ (About Me)</h2>
+        <p>សួស្តី! ខ្ញុំបាទ/នាងខ្ញុំ គឺជាអ្នករៀនបង្កើត Website ថ្មីថ្មោងម្នាក់។ ខ្ញុំកំពុងសាកល្បងប្រើប្រាស់កូដ HTML និង CSS ដើម្បីរចនាគេហទំព័រដោយខ្លួនឯង។</p>
+        
+        <h2>គោលបំណង</h2>
+        <p>រៀនសរសេរកូដ បង្កើតគម្រោងផ្ទាល់ខ្លួន និងស្វែងយល់ពីបច្ចេកវិទ្យាថ្មីៗ។</p>
+
+        <!-- ប៊ូតុងសម្រាប់ចុច -->
+        <a href="https://github.com" target="_blank" class="btn">ចូលទៅកាន់ GitHub របស់ខ្ញុំ</a>
+    </div>
+
+    <!-- ផ្នែកខាងក្រោមបង្អស់ -->
+    <footer>
+        <p>&copy; 2026 រក្សាសិទ្ធិគ្រប់យ៉ាងដោយខ្លួនខ្ញុំផ្ទាល់</p>
+    </footer>
+
+</body>
+</html>
